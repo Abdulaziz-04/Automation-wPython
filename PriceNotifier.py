@@ -1,7 +1,6 @@
 import requests
 import smtplib
 from bs4 import BeautifulSoup
-# For enivronment variables
 from decouple import config
 
 #URL = 'https://www.amazon.in/ASUS-i7-10750H-Graphics-Original-G712LU-H7015T/dp/B08DVLCNKK/ref=sr_1_4?crid=LIH9CVBYDTSN&dchild=1'
