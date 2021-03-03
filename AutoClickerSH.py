@@ -5,7 +5,7 @@ from ppadb.client import Client
 
 # Automating android Game Stick Hero
 
-# Checking devices via ADB
+# Checking available devices via ADB
 adb = Client(host='127.0.0.1', port=5037)
 devices = adb.devices()
 if(len(devices) == 0):
