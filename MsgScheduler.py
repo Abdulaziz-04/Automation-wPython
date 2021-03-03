@@ -3,7 +3,7 @@ from decouple import config
 from twilio.rest import Client
 from time import sleep
 
-# Setup Twilio Client
+# Setup Twilio Client(Twiilio API)
 client = Client(config('SID'), config('AUTH'))
 # Get target date and time
 target = input(
